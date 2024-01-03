@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Button */
+.btn-danger {
+    background-color: #bd0001;
+    border-radius: 10px;
+    border-color: #bd0001;
+    padding: 10px 45px;
+    color: white;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #bd0001;
+    padding: 10px 45px;
+    color: #bd0001;
+}
+
+/* Navbar */
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active {
+    background-color: white;
+    border-bottom: 1px solid #bd0001;
+}
+
+.text-nav-active {
+    color: black;
+}
+
+/* Hero */
+#hero {
+    background-image: url(../background/background3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-color: black;
+}
+
+.hero-title {
+    padding-top: 200px;
+}
+
+.hero-text {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+/* join */
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+/* Form Login */
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
